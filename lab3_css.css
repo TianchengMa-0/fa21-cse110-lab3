@@ -1,0 +1,12 @@
+h1 {
+    color:rgb(255,255,0);
+    background-color: green;
+    width: 600px;
+    height: 1em;
+    text-decoration: underline;
+    display: inline-block;
+    
+}
+h1:hover{
+    color: #FFF;
+}
