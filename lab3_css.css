@@ -23,3 +23,17 @@ h1:hover{
 .CLASS:active {
     color:indigo;
 }
+
+
+
+
+#box {
+    margin-left: 150mm;
+    padding-top: 5vw;
+    border-style: dotted;
+    border-color: aqua;
+    border-width: 2vh;
+    border-radius: 3cm;
+    min-width: 50cm;
+    position: static;
+}
