@@ -1,3 +1,4 @@
+/* version 1.0 */
 h1 {
     color:rgb(255,255,0);
     background-color: green;
@@ -12,7 +13,7 @@ h1:hover{
 }
 
 
-
+/* version 2.0 */
 .CLASS {
     color: hsl(319, 100%, 50%);
     text-align: center;
@@ -26,7 +27,7 @@ h1:hover{
 
 
 
-
+/* version 3.0 */
 #box {
     margin-left: 150mm;
     padding-top: 5vw;
@@ -41,7 +42,7 @@ h1:hover{
 
 
 
-
+/* version 4.0 */
 div[class="extra1"]{
     margin: 1cm 1cm 1cm 1cm;
     padding: 1cm 1cm 1cm 2cm;
@@ -76,4 +77,31 @@ div[class="extra1"]{
     grid-column-start: 3;
     grid-area: special;
     justify-self: start;
+}
+
+
+/* version 5.0 */
+* {
+    color: khaki;
+}
+p:hover{
+    color: lightcoral;
+}
+legend, label{
+    color: black;
+}
+fieldset p{
+    text-decoration: underline;
+}
+ul > li{
+    text-decoration: overline;
+}
+summary ~ p{
+    text-align: center;
+}
+h2 + h3{
+    font-weight: bold;
+}
+h2.feedback{
+    font-style: italic;
 }
