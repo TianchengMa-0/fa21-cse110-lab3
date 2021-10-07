@@ -37,3 +37,43 @@ h1:hover{
     min-width: 50cm;
     position: static;
 }
+
+
+
+
+
+div[class="extra1"]{
+    margin: 1cm 1cm 1cm 1cm;
+    padding: 1cm 1cm 1cm 2cm;
+    border: solid 5px blueviolet;
+    display: none;
+}
+
+.extra2 {
+    margin:auto;
+}
+
+@media screen and (min-width: 10cm) {
+    body{
+        background-color: brown;
+    }
+}
+
+.parent {
+    display: flex;
+    height: 15cm;
+    flex-direction: row-reverse;
+    flex-flow: column-reverse;
+}
+.child2{
+    flex-shrink: 5;
+}
+
+.container{
+    display: grid;
+}
+.item1{
+    grid-column-start: 3;
+    grid-area: special;
+    justify-self: start;
+}
